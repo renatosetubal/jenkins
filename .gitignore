@@ -1,0 +1,8 @@
+.vagrant/
+**/.vagrant/
+*/.vagrant/
+*.vdi
+*.sql
+*.gz
+*.zip
+files/
