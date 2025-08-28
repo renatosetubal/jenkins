@@ -1,9 +1,9 @@
 pipeline{
     agent any
     stages{
-        stage('testando a primeira parte da pipeline'){
+        stage('Levantando a aplicacao'){
             steps{
-                sh 'cat /etc/fstab | tee /tmp/redirecionamento.txt'
+                sh 'docker-compose up -d'
             }
         }
     }
